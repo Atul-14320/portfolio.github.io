@@ -57,34 +57,6 @@ p{
   margin-top: 10px;
 }
 /* header section */
-/* nav{
-  height: 100px;
-
-}
-nav h2{
-  float: left;
-  color: white;
-  line-height: 100px;
-}
-nav ul{
-  list-style: none;
-  font-size: 12px;
-  font-weight: 300;
-  float: right;
-  line-height: 100px;
-}
-nav ul li{
-  display: inline-block;
-  margin: 0 22px;
-}
-nav ul li a{
-  text-transform: uppercase;
-  color: white;
-}
-.active{
-  border-bottom: 1px solid white;
-  padding-bottom: 6px;
-} */
 .navbar-inverse {
   background-color: rgb(60 60 60 / 27%);
   border: none;
@@ -94,10 +66,11 @@ nav ul li a{
 }
 
 .background{
-  height:calc(102vh - 100px);
-  background-image: url("images/bgimg.jpg");
+  height: 100vh;
+  background-image: url(images/bgimg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .background-text h2{
@@ -109,7 +82,7 @@ letter-spacing: 1px;
   margin: auto;
   color: white;
   text-align: center;
-  transform: translateY(10vh);
+  transform: translateY(16vh);
 }
 ul#menu li {
   display:inline;
@@ -144,7 +117,7 @@ ul#menu li {
   margin-top: 6px;
   max-width: 100%;
   float: left;
-  margin-bottom: 26px;
+  margin-bottom: 50px;
 
   margin-right: 56px;
   
@@ -250,13 +223,17 @@ circle {
 .percent1 span {
   color: rgb(0, 0, 0);
 }
-
+hr.new1 {
+  border: 2px solid green;
+  border-radius: 5px;
+}
 
 .rings
 {
  
-  transform: translateX(11px);
-  width: 107%;
+  transform: translateX(0px);
+  width: 106%;
+
 }
 .skills-text{
   transform: translateY(80px);
@@ -281,6 +258,7 @@ circle {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 95%;
 }
 .containers .content .left-side{
   width: 25%;
@@ -638,4 +616,31 @@ footer .content .link-boxes .box{
 footer .content .link-boxes .input-box{
   width: 100%;
 }
+}
+ /* .down_btn:hover {
+  background-color: RoyalBlue;
+   
+} */
+.down_btn{
+  display: inline-block;
+
+  color: #fff;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+ 
+} 
+.fa-border-icon {
+  border-width: 3px;
+  border-style: solid;
+  border-color: orange;
+  border-image: initial;
+  border-radius: 50% 50% 50% 50%; 
+  padding: 6% 9% 6% 9%; 
 }
