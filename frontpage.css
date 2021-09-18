@@ -117,7 +117,7 @@ ul#menu li {
   margin-top: 6px;
   max-width: 100%;
   float: left;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 
   margin-right: 56px;
   
@@ -181,7 +181,7 @@ ul#menu li {
 
 }
 
-.percent1, .percent2, svg, circle {
+.percent1, .percent2,.percent3,.percent4,.percent5,.percent6,.percent7,.percent8,.percent9,.percent10,.percent11,.percent12, svg, circle {
   width: 200px;
   height: 200px;
   display: inline-block;
@@ -192,7 +192,7 @@ circle {
   fill: #dddddd4f;
   stroke: #c3c3c3;
   stroke-width: 10;
-  transform: translate(10px, 10px); /* This is to position it in the center */
+  transform: translate(10px, 17px); /* This is to position it in the center */
   stroke-dasharray: 440;
   stroke-linecap: round;
 }
@@ -206,7 +206,73 @@ circle {
      }
 }
 .percent1 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 90) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent2 circle:nth-child(2) {
   stroke-dashoffset: calc(440 - (440 * 75) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent3 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 80) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent4 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 80) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent5 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 95) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent6 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 90) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent7 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 90) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent8 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 85) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent9 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 70) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent10 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 75) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent11 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 80) / 100); /* Here's what's changed */
+  stroke: #d34b61; 
+  animation: percent 1.5s linear;
+  animation-delay: 1s;
+}
+.percent12 circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 70) / 100); /* Here's what's changed */
   stroke: #d34b61; 
   animation: percent 1.5s linear;
   animation-delay: 1s;
@@ -307,6 +373,7 @@ hr.new1 {
   font-size: 23px;
   font-weight: 600;
   color: #000;
+  margin-bottom: 10px;
 }
 .right-side .input-box{
   height: 50px;
